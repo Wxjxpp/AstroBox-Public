@@ -126,7 +126,7 @@
     },
     "restartPrompt": {
       "title": "得再开一回",
-      "body": "想叫小插件改嘞都管用，得把这软件儿关了再开。"立马儿再开"点喽，软件儿就关咧，恁得自个儿再开开。",
+      "body": "想叫小插件改嘞都管用，得把这软件儿关了再开。\"立马儿再开\"点喽，软件儿就关咧，恁得自个儿再开开。",
       "primary": "立马儿再开！",
       "secondary": "拉倒吧"
     }
@@ -148,7 +148,7 @@
     "lastChargePrefix": "上回插电到这会儿",
     "lastChargeSuffix": "了",
     "reconnect": "再连一回",
-    "reconnectFailed": "上回冇连上。去"换手表"那儿再连吧",
+    "reconnectFailed": "上回没得连上。去\"换手表\"那儿再连吧",
     "switch": "换块儿手表",
     "notConnected": "还没得连手表嘞",
     "connect": "连手表",
@@ -195,12 +195,12 @@
     "emptyError": "悦拾或者账号怼空喽！",
     "2fa": {
       "title": "得弄两步验证",
-      "body": "恁这账号得弄两步验证。点"中"，俺开浏览器叫恁弄。得蹦跶两回。瞅见页上写"中"了，再蹦回 AstroBox 重新登就中。"
+      "body": "恁这账号得弄两步验证。点\"中\"，俺开浏览器叫恁弄。得蹦跶两回。瞅见页上写\"中\"了，再蹦回爱死戳不可私重新登就中。"
     }
   },
   "permission": {
     "ble": {
-      "required": "想啥都能使，得叫 AstroBox 使蓝牙。给喽权限再开开软件儿就中。"
+      "required": "想啥都能使，得叫爱死戳不可私使蓝牙。给喽权限再开开软件儿就中。"
     }
   },
   "connect": {
@@ -215,7 +215,7 @@
       "reduceAnimation": "少动弹点儿",
       "reduceAnimationDesc": "怕晃眼嘞最好开开",
       "language": "喷啥话",
-      "languageDesc": "挑 AstroBox 喷啥话"
+      "languageDesc": "挑爱死戳不可私喷啥话"
     },
     "tools": {
       "title": "家伙事儿",
@@ -266,9 +266,9 @@
       "qq": "QQ群",
       "qqDesc": "蹦到 AstroBox 官家QQ群喷喷",
       "licences": "开源头喷喷",
-      "licencesDesc": "瞅瞅 AstroBox 用嘞开源头都是咋说嘞",
+      "licencesDesc": "瞅瞅爱死戳不可私用嘞开源头都是咋说嘞",
       "disclaimer": "喷喷",
-      "disclaimerDesc": "瞅瞅 AstroBox 嘞喷喷"
+      "disclaimerDesc": "瞅瞅爱死戳不可私嘞喷喷"
     }
   },
   "licences": {
@@ -297,7 +297,7 @@
   },
   "dragToPush": {
     "title": "想安文件？怼这儿松开！",
-    "supportedFiles": "管啥文件：表盘、快应用、AstroBox小插件"
+    "supportedFiles": "管啥文件：表盘、快应用、爱死戳不可私小插件"
   },
   "onlineImage": {
     "loadFailed": "图冇加载成"
