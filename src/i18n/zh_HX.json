@@ -1,4 +1,5 @@
 {
+  "translators": "xinghengCN",
   "nav": {
     "home": "正屏",
     "device": "器物",
@@ -79,7 +80,9 @@
   },
   "resourceCategory": {
     "hidden_paid": "隐赋",
-    "hidden_force_paid": "隐贡"
+    "hidden_force_paid": "隐贡",
+    "quickapp": "器用",
+    "watchface": "晷仪"
   },
   "installTask": {
     "watchface": {
@@ -227,7 +230,11 @@
       "languageDesc": "择AstroBox示文",
       "translateTeam": "译林郎",
       "debugWindow": "校牖",
-      "debugWindowDesc": "可昭校牖否？"
+      "debugWindowDesc": "可昭校牖否？",
+      "themeColorTitle": "星辉",
+      "themeColorDesc": "调易AstroBox辉光",
+      "rgbMode": "三光式",
+      "rgbModeDesc": "启三光流彩之效"
     },
     "tools": {
       "title": "玄工",
@@ -279,6 +286,8 @@
       "websiteDesc": "访AstroBox云庐",
       "qq": "玉翎阁",
       "qqDesc": "入AstroBox玉翎阁(920456907)",
+      "bandbbs": "米坛议阁",
+      "bandbbsDesc": "赴议阁议事呈异",
       "licences": "开源符",
       "licencesDesc": "观开源之符",
       "disclaimer": "免责文告",
