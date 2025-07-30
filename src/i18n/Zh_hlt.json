@@ -64,13 +64,21 @@
     "title": "瞅见新版本 {version} 咧！",
     "body": "都改啥了：",
     "updateNow": "立马儿更新！",
-    "later": "一会儿再说",
+    "later": "待一会儿再说",
     "ignore": "这版本甭再吆喝俺了"
   },
   "resourceType": {
     "quickapp": "爱啪啪",
     "watchface": "看滴",
     "firmware": "恁环的固件"
+  },
+  "resourcePaidType": {
+    "paid": "得花钱滴",
+    "force_paid": "非得花钱滴"
+  },
+  "resourceCategory": {
+    "hidden_paid": "隐藏得花钱滴",
+    "hidden_force_paid": "隐藏非得花钱滴"
   },
   "installTask": {
     "watchface": {
