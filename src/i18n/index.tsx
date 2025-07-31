@@ -3,11 +3,12 @@ import { createContext, ReactNode, useContext, useState } from 'react';
 import en_US from './en.json';
 import zh_CN from './zh.json';
 import zh_HK from './zh_HK.json';
+import zh_Can from './zh_Can.json';
 import zh_MS from './zh_MS.json';
 import zh_HX from './zh_HX.json';
 import zh_Meme from './zh_Meme.json';
 
-const resources = { zh_CN, en_US, zh_HK, zh_HX, zh_Meme, zh_MS } as const;
+const resources = { zh_CN, en_US, zh_HK, zh_Can, zh_HX, zh_Meme, zh_MS } as const;
 export type Lang = keyof typeof resources;
 
 const STORAGE_KEY = "language";
@@ -15,6 +16,7 @@ const STORAGE_KEY = "language";
 const LANG_NAME: any = {
   "zh_CN": "中文 (简体)",
   "zh_HK": "中文 (香港)",
+  "zh_Can": "中文（粤语)",
   "zh_HX": "文言 (華夏)",
   "zh_Meme": "中文 (神人)",
   "zh_MS": "中文 (巨硬)",
