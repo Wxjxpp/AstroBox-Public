@@ -18,7 +18,7 @@
     "appList": "应用清单",
     "loadingMore": "正支棱着加载嘞...",
     "none": "啥也没得瞅见...",
-    "bottom": "妥了...都在这儿咧...❤",
+    "bottom": "都...都进去嘞...❤",
     "retry": "再试试",
     "loading": "正支棱着加载嘞..."
   },
@@ -86,13 +86,13 @@
    },
   "installTask": {
     "watchface": {
-      "description": "搁恁咔嚓咔嚓里的看滴"
+      "description": "搁恁咔嚓咔嚓⚙️里的看滴"
     },
     "thirdPartyApp": {
-      "description": "搁恁咔嚓咔嚓里的爱啪啪"
+      "description": "搁恁咔嚓咔嚓⚙️里的爱啪啪"
     },
     "firmware": {
-      "description": "搁恁咔嚓咔嚓里滴恁环的固件"
+      "description": "搁恁咔嚓咔嚓⚙️里滴恁环的固件"
     }
   },
   "banner": {
@@ -221,7 +221,7 @@
     "authFailed": "恁怼嘞钥匙不对，或者后头嘞东西出岔子了。关了软件儿再开开试试。"
   },
   "settings": {
-    "title": "咔嚓咔嚓",
+    "title": "咔嚓咔嚓⚙️",
     "general": {
       "title": "一般嘞",
       "reduceAnimation": "少动弹点儿",
@@ -287,7 +287,7 @@
       "websiteDesc": "蹦到 AstroBox 官家嘞窝看看",
       "qq": "QQ群",
       "qqDesc": "蹦到 AstroBox 官家QQ群喷喷",
-      "banbbs": "米坛社区滴评论区",
+      "bandbbs": "米坛社区滴评论区",
       "bandbbsDesc": "去瞅瞅评论区",
       "licences": "开源头喷喷",
       "licencesDesc": "瞅瞅 AstroBox 用嘞开源头都是咋说嘞",
@@ -395,3 +395,4 @@
     "bandbbs": "米坛社区"
   }
 }
+    
