@@ -228,10 +228,13 @@
       "language": "语言",
       "languageDesc": "择AstroBox示文",
       "translateTeam": "译林郎",
+      "translateTeamDesc": "欲溯雅言源，敢问铸者名？",
       "debugWindow": "校牖",
       "debugWindowDesc": "可昭校牖否？",
       "themeColorTitle": "星辉",
-      "themeColorDesc": "调易AstroBox辉光"
+      "themeColorDesc": "调易AstroBox辉光",
+      "fixedHeader": "固辕",  
+"fixedHeaderDesc": "页动时悬旌于顶（诫视窗11者启）"
     },
     "tools": {
       "title": "玄工",
