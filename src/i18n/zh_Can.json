@@ -165,6 +165,7 @@
     "notConnected": "设备未连线",
     "connect": "连线设备",
     "networkProxyInfo": "AstroBox 已为你嘅设备代理网络请求",
+    "fakeAndroidModeInfoLabel": "扮Android模式已启用，喺呢个模式无法同设备正常建立连接，资源安装、资源管理等功能都唔用得。若果要使用呢啲功能，请禁用呢个模式，之后重新连接设备。",
     "features": {
       "installApp": "安装快应用",
       "installAppDesc": "拣选快应用包并传送到你嘅设备",
@@ -205,6 +206,8 @@
     "loggingIn": "登录紧",
     "login": "登录",
     "emptyError": "密码亦是账号唔可以为空!",
+    "iosCopyAlertTitle": "获取结果",
+    "iosCopyAlertContentTip": "你似乎用紧iOS设备。由于接口限制，iOS设备暂时唔支持自动添加已绑定嘅设备。请喺下边搵你打算连接嘅设备，并复制Authkey，之后喺“切换设备”页进行连接",
     "2fa": {
       "title": "需要双重认证",
       "body": "你嘅账号需要双重认证。请点击“确定“喺浏览器继续。过程会涉及两次重定向。当页面显示ok后，请返回AstroBox并重新尝试登录。"
@@ -217,6 +220,7 @@
   },
   "connect": {
     "failed": "连接失败咗",
+    "iosIgnoreTips": "连接失败，请试吓喺系统蓝牙设置搵你要连接嘅设备，撳右边嘅(i)型掣入到详情页，撳“忽略此设备”，之后再试。",
     "handshakeFailed": "握手失败咗",
     "authFailed": "AuthKey错误或后端问题。请尝试重启应用程序后再试。"
   },
@@ -235,7 +239,13 @@
       "themeColorTitle": "主题色",
       "themeColorDesc": "调节Astro Box嘅主题色",
       "fixedHeader": "固定标题栏",
-      "fixedHeaderDesc": "启用后，标题栏将会固定喺画面嘅最上方。（建议Windows11用户唔好启用）"
+      "fixedHeaderDesc": "启用后，标题栏将会固定喺画面嘅最上方。（建议Windows11用户唔好启用）",
+      "micaEffect": "透明效果",
+      "micaEffectDesc": "设置 Windows11 系统下嘅透明效果",
+      "micaEffectFull": "完全透明效果",
+      "micaEffectPartial": "侧边栏&标题栏透明",
+      "micaEffectTitleOnly": "仅标题栏透明",
+      "micaEffectInfo": "启用后，AstroBox 嘅页面将会具有云母透明效果，但请你留意：呢个改动有可能会影响某啲页面嘅可读性同埋高斯模糊特效嘅美观性。\n 你可以配置透明效果嘅应用范围；若果想禁用系統入边所有嘅透明效果，请到 Windows 设置入边操作。"
     },
     "tools": {
       "title": "奇妙嘅工具",
@@ -262,6 +272,12 @@
     },
     "install": {
       "title": "安装",
+      "iosFakeAndroidMode": "扮Android模式",
+      "iosFakeAndroidModeDesc": "扮成Android系统并短暂连接设备嚟解锁某啲功能（由于系统嘅限制，启用后只能维持一瞬间连接，若果要安装或者管理资源请禁用呢个功能）",
+      "iosFakeAndroidModeEnableAlertTitle": "启用扮Android模式",
+      "iosFakeAndroidModeEnableAlertContent": "你喺度启用扮Android模式！\n启用呢个模式并重新连接设备后，就能解锁穿戴设备仅喺Android连接时启用嘅某啲功能。但由于小米嘅系统限制，启用呢个模式后，AstroBox同设备嘅连接仅能维持一瞬间，喺设备绑定成功后，连接会立即切断。咁就话喺呢个模式，你将冇得用除绑定设备外嘅任何功能，包括安装资源、卸载资源。若果要使用呢啲功能，请禁用呢个模式，之后重新连接设备。\n确定要断开当前设备并启用呢个模式？",
+      "removeBondBeforeConnect": "连接之前解绑",
+      "removeBondBeforeConnectDesc": "喺连接设备之前解绑以重新进行配对，有助于改善断连嘅現象",
       "sendInterval": "发包间隔",
       "sendIntervalDesc": "安装嗰阵发送数据块嘅间隔。拨呢度可以解决部分安装失败嘅问题。"
     },
@@ -334,7 +350,8 @@
     "refreshAll": "全部刷新",
     "pullPage": "拉取page",
     "pullItem": "拉取item=测试插件",
-    "downloadAndPackage": "下载并打包item=测试插件"
+    "downloadAndPackage": "下载并打包item=测试插件",
+    "pullReport": "拉取手环日志"
   },
   "productInfo": {
     "about": "关于呢个资源",
