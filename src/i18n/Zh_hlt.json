@@ -165,7 +165,8 @@
     "notConnected": "还没得连手表嘞",
     "connect": "连手表",
     "networkProxyInfo": "爱死戳不可私正帮恁嘞手表走网嘞",
-    "features": {
+     "fakeAndroidModeInfoLabel": "扮Android模式开开嘞，搁这模式没法儿跟手表正常连上，安玩意儿、拾掇玩意儿啥嘞都弄不成。要是想使这些功能，得先给这模式关了，再重新连手表。",
+     "features": {
       "installApp": "安爱啪啪",
       "installAppDesc": "挑个爱啪啪包安手表上",
       "installWatchface": "安看滴",
@@ -205,7 +206,9 @@
     "loggingIn": "正支棱着登嘞",
     "login": "登！",
     "emptyError": "悦拾或者账号怼空喽！",
-    "2fa": {
+    "iosCopyAlertTitle": "获取结果",
+    "iosCopyAlertContentTip": "你好像用的是iOS设备。因为接口限制，iOS设备暂时不支持自动添加已经绑定的设备。你在下面找你打算连接的设备，把那串Authkey复制了，然后到“切换设备”界面进行连接"
+      "2fa": {
       "title": "得弄两步验证",
       "body": "恁这账号得弄两步验证。点\"中\"，俺开浏览器叫恁弄。得蹦跶两回。瞅见页上写\"中\"了，再蹦回爱死戳不可私重新登就中。"
     }
@@ -217,7 +220,8 @@
   },
   "connect": {
     "failed": "没得连上",
-    "handshakeFailed": "没得对上暗号",
+    "iosIgnoreTips": "连接失败，你试试在系统蓝牙设置里找你要连的设备，点右边那个(i)样的按钮进到详情里，点“忘得悦拾”，然后再试试。"
+     "handshakeFailed": "没得对上暗号",
     "authFailed": "恁怼嘞钥匙不对，或者后头嘞东西出岔子了。关了软件儿再开开试试。"
   },
   "settings": {
@@ -234,10 +238,16 @@
       "debugWindowDesc": "显示调试窗口",
       "themeColorTitle": "整体啥色儿啊",
       "themeColorDesc": "整整爱死戳不可私滴色儿",
-      "rgbMode": "蹦迪滴色儿",
-      "rgbModeDesc": "启用蹦迪色儿滴样子"
-     },
-    "tools": {
+      "fixedHeader": "卡死头顶",
+      "fixedHeaderDesc": "打开之后，顶上会固定在屏幕最上边。（建议破窗户11用户别打开）",
+      "micaEffect": "透明效果",
+      "micaEffectDesc": "设置破窗户11系统里的透明效果",
+      "micaEffectFull": "都透明效果",
+      "micaEffectPartial": "边上与顶上透明",
+      "micaEffectTitleOnly": "仅仅顶上透明",
+      "micaEffectInfo": "打开之后，爱死戳不可私的界面会有biutefou滴透明效果，不过你得注意：这个改动可能会影响某些界面的可读性还有高斯模糊特效的美观性。\n你可以设置透明效果的使用范围；要是想关掉系统里所有的透明效果，得到破窗户设置里整。"
+},
+      "tools": {
       "title": "家伙事儿",
       "unlockCode": "算算那悦拾码",
       "unlockCodeDesc": "忘喽手表悦拾了，算个码给它解开",
@@ -261,7 +271,13 @@
       "bbsAccount": "米坛账号"
     },
     "install": {
-      "title": "安玩意儿",
+     "title": "安玩意儿",
+     "iosFakeAndroidMode": "扮Android模式",
+     "iosFakeAndroidModeDesc": "扮成Android系统并暂时连接设备来解锁某些功能（因为系统限制，打开后只能维持一会儿连接，要是想安装或者管理资源就把这个功能关掉）",
+     "iosFakeAndroidModeEnableAlertTitle": "打开扮Android模式",
+     "iosFakeAndroidModeEnableAlertContent": "你这是要打开扮Android模式呐！\n打开这个模式并重新连接设备后，就能解锁穿戴设备只有在Android连接时才能用的某些功能。但因为小米的系统限制，打开这个模式后，AstroBox和设备的连接只能维持一会儿，等设备绑定成功后，连接会立马断开。这就意味着在这个模式下，你没法使用除了绑定设备之外的任何功能，包括安装资源、卸载资源。要是想使用这些功能，就得关掉这个模式，然后重新连接设备。\n确定要断开当前设备并打开这个模式吗？",
+      "removeBondBeforeConnect": "连接之前解除绑定",
+      "removeBondBeforeConnectDesc": "在连接设备之前解除绑定来重新配对，能帮着改善断开连接的情况"
       "sendInterval": "隔多久发一疙瘩",
       "sendIntervalDesc": "安玩意儿时候隔多久发一疙瘩。调调这个能治住安不上嘞毛病"
     },
@@ -279,7 +295,6 @@
     },
     "about": {
       "title": "这软件儿咋回事儿",
-     
        "aboutAstrobox": "AstroBox 咋回事儿",
       "aboutAstroboxDesc": "瞅瞅 AstroBox 嘞底细",
       "openlog": "日志文件夹",
@@ -336,7 +351,8 @@
     "pullPage": "把页弄过来",
     "pullItem": "把东西弄过来=测试小插件",
     "downloadAndPackage": "下载再打包=测试小插件"
-  },
+    "pullReport": "拿到环儿的日志"
+   },
   "productInfo": {
     "about": "这玩意儿咋回事儿",
     "update": "新嘞",
