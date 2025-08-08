@@ -7,8 +7,9 @@ import zh_Can from './zh_Can.json';
 import zh_MS from './zh_MS.json';
 import zh_HX from './zh_HX.json';
 import zh_Meme from './zh_Meme.json';
+import zh_hlt from './zh_hlt.json';
 
-const resources = { zh_CN, en_US, zh_HK, zh_Can, zh_HX, zh_Meme, zh_MS } as const;
+const resources = { zh_CN, en_US, zh_HK, zh_Can, zh_HX, zh_Meme, zh_MS, zh_hlt } as const;
 export type Lang = keyof typeof resources;
 
 const STORAGE_KEY = "language";
