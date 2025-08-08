@@ -72,7 +72,7 @@
   "resourceType": {
     "quickapp": "爱啪啪",
     "watchface": "看滴",
-    "firmware": "恁环的固件"
+    "firmware": "恁设备滴固件"
   },
   "resourcePaidType": {
     "paid": "得花钱滴",
@@ -92,7 +92,7 @@
       "description": "搁恁咔嚓咔嚓⚙️里的爱啪啪"
     },
     "firmware": {
-      "description": "搁恁咔嚓咔嚓⚙️里滴恁环的固件"
+      "description": "搁恁咔嚓咔嚓⚙️里滴恁设备的固件"
     }
   },
   "banner": {
@@ -177,7 +177,7 @@
       "manageAppsDesc": "拾掇手表上嘞爱啪啪",
       "manageWatchfaces": "拾掇看滴",
       "manageWatchfacesDesc": "拾掇手表上嘞看滴",
-      "deviceInfo": "手表咋回事儿",
+      "deviceInfo": "瞅瞅手表咋回事儿",
       "deviceInfoDesc": "瞅瞅这手表嘞底细"
     }
   },
@@ -186,7 +186,7 @@
     "placeholder": "怼进去想去嘞地儿名儿"
   },
   "providerDialog": {
-    "title": "从哪儿弄嘞玩意儿咋样了"
+    "title": "从哪儿整嘞玩意儿咋样了"
   },
   "queue": {
     "title": "排嘞队",
@@ -198,8 +198,8 @@
     "taskQueue": "任务排嘞队"
   },
   "loginDialog": {
-    "title": "拿恁米账号登",
-    "description": "登恁米账号，把恁同步嘞手表弄过来",
+    "title": "拿恁米账号怼",
+    "description": "拿恁米账号给怼上去，把恁同步嘞手表扯过来",
     "usernamePlaceholder": "怼进去恁大名电话恁米账号ID",
     "passwordPlaceholder": "怼进去悦拾",
     "saveCredentials": "存住用户名跟悦拾",
@@ -207,9 +207,9 @@
     "login": "登！",
     "emptyError": "悦拾或者账号怼空喽！",
     "iosCopyAlertTitle": "获取结果",
-    "iosCopyAlertContentTip": "你好像用的是iOS设备。因为接口限制，iOS设备暂时不支持自动添加已经绑定的设备。你在下面找你打算连接的设备，把那串Authkey复制了，然后到“切换设备”界面进行连接"
+    "iosCopyAlertContentTip": "你好像用的是iOS设备。因为接口限制，iOS设备暂时不支持自动添加已经绑定的设备。你在下面找你打算连接的设备，把那串Authkey复制了，然后到“切换设备”界面进行连接",
       "2fa": {
-      "title": "得弄两步验证",
+      "title": "得整两次验证",
       "body": "恁这账号得弄两步验证。点\"中\"，俺开浏览器叫恁弄。得蹦跶两回。瞅见页上写\"中\"了，再蹦回爱死戳不可私重新登就中。"
     }
   },
@@ -220,7 +220,7 @@
   },
   "connect": {
     "failed": "没得连上",
-    "iosIgnoreTips": "连接失败，你试试在系统蓝牙设置里找你要连的设备，点右边那个(i)样的按钮进到详情里，点“忘得悦拾”，然后再试试。"
+    "iosIgnoreTips": "没怼上，你进到系统蓝牙设置里瞅瞅你要连的设备，点右边那个长得跟(i)样的按钮进到里头去，点“忘嘞悦拾”，然后再瞅瞅。",
      "handshakeFailed": "没得对上暗号",
     "authFailed": "恁怼嘞钥匙不对，或者后头嘞东西出岔子了。关了软件儿再开开试试。"
   },
@@ -264,20 +264,20 @@
     },
     "account": {
       "title": "账号",
-      "loginBBS": "登米坛账号",
-      "loginBBSDesc": "登米坛账号，弄米坛嘞玩意儿",
-      "syncDevices": "把俺嘞手表弄过来",
-      "syncDevicesDesc": "从小米运动健康那儿把俺嘞手表弄过来",
+      "loginBBS": "怼上米坛账号",
+      "loginBBSDesc": "怼上米坛账号，搬运米坛嘞玩意儿",
+      "syncDevices": "把俺嘞设备弄过来😎",
+      "syncDevicesDesc": "从小米运动健康那儿把俺嘞设备弄过来",
       "bbsAccount": "米坛账号"
     },
     "install": {
      "title": "安玩意儿",
-     "iosFakeAndroidMode": "扮Android模式",
-     "iosFakeAndroidModeDesc": "扮成Android系统并暂时连接设备来解锁某些功能（因为系统限制，打开后只能维持一会儿连接，要是想安装或者管理资源就把这个功能关掉）",
-     "iosFakeAndroidModeEnableAlertTitle": "打开扮Android模式",
-     "iosFakeAndroidModeEnableAlertContent": "你这是要打开扮Android模式呐！\n打开这个模式并重新连接设备后，就能解锁穿戴设备只有在Android连接时才能用的某些功能。但因为小米的系统限制，打开这个模式后，AstroBox和设备的连接只能维持一会儿，等设备绑定成功后，连接会立马断开。这就意味着在这个模式下，你没法使用除了绑定设备之外的任何功能，包括安装资源、卸载资源。要是想使用这些功能，就得关掉这个模式，然后重新连接设备。\n确定要断开当前设备并打开这个模式吗？",
-      "removeBondBeforeConnect": "连接之前解除绑定",
-      "removeBondBeforeConnectDesc": "在连接设备之前解除绑定来重新配对，能帮着改善断开连接的情况"
+     "iosFakeAndroidMode": "扮机器人儿（Android）模式",
+     "iosFakeAndroidModeDesc": "扮成机器人儿系统（Android）并暂时连接设备来解锁某些功能（因为系统限制，打开后只能坚持一会儿连接，要是想安装或者整整资源就把这个功能关掉）",
+     "iosFakeAndroidModeEnableAlertTitle": "打开扮机器人儿（Android）模式",
+     "iosFakeAndroidModeEnableAlertContent": "你这是要打开扮机器人儿（Android）模式呐！\n打开这个模式并重新连接设备后，就能解锁穿戴设备只有在用机器人儿（Android）连接时才能用的某些功能。但因为小米的系统限制，打开这个模式后，爱死戳不可私和设备的连接只能坚持一会儿，等设备绑定成功后，连接会立马断开。这就意味着在这个模式下，你没法使用除了绑定设备之外的任何功能，包括安装资源、卸载资源。要是想使用这些功能，就得关掉这个模式，然后重新连接设备。\n确定要断开当前设备并打开这个模式吗？",
+      "removeBondBeforeConnect": "连接之前丢掉绑定",
+      "removeBondBeforeConnectDesc": "在连接设备之前丢掉绑定来重新配对，能帮着改善断开连接的情况"
       "sendInterval": "隔多久发一疙瘩",
       "sendIntervalDesc": "安玩意儿时候隔多久发一疙瘩。调调这个能治住安不上嘞毛病"
     },
@@ -351,7 +351,7 @@
     "pullPage": "把页弄过来",
     "pullItem": "把东西弄过来=测试小插件",
     "downloadAndPackage": "下载再打包=测试小插件"
-    "pullReport": "拿到环儿的日志"
+    "pullReport": "拿到设备的日志"
    },
   "productInfo": {
     "about": "这玩意儿咋回事儿",
@@ -382,14 +382,14 @@
     "fields": {
       "name": "叫个啥",
       "address": "它住的地方",
-      "authkey": "AuthKey",
+      "authkey": "怼你设备要这悦拾",
       "connectionType": "咋怼上嘞",
       "codename": "里头叫啥",
-      "model": "型号",
-      "imei": "IMEI",
+      "model": "出厂名叫啥嘞",
+      "imei": "设备身份证号",
       "firmware": "系统啥时候滴",
-      "serial": "序列号",
-      "battery": "还有多少电",
+      "serial": "也是设备身份证号",
+      "battery": "瞅瞅还剩多少电",
       "chargeStatus": "正充电不",
       "lastCharge": "上回啥时候插电的嘞"
     }
