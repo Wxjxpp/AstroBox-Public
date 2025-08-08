@@ -350,8 +350,8 @@
     "refreshAll": "都再加载一回",
     "pullPage": "把页弄过来",
     "pullItem": "把东西弄过来=测试小插件",
-    "downloadAndPackage": "下载再打包=测试小插件"
-    "pullReport": "拿到设备的日志"
+    "downloadAndPackage": "下载再打包=测试小插件",
+    "pullReport": "拿到设备的日志",
    },
   "productInfo": {
     "about": "这玩意儿咋回事儿",
@@ -377,7 +377,7 @@
     "groups": {
       "device": "手表咋回事儿唉",
       "system": "系统咋回事儿唉",
-      "status": "手表啥样儿了"
+      "status": "手表啥样儿了",
     },
     "fields": {
       "name": "叫个啥",
