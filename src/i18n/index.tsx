@@ -21,7 +21,7 @@ const LANG_NAME: any = {
   "zh_HX": "文言 (華夏)",
   "zh_Meme": "中文 (神人)",
   "zh_MS": "中文 (巨硬)",
-  "zh_hlt"："中文（河南）",
+  "zh_hlt":"中文（河南）",
   "en_US": "English (US)",
 }
 
