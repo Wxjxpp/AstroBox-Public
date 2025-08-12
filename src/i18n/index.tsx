@@ -7,7 +7,7 @@ import zh_Can from './zh_Can.json';
 import zh_MS from './zh_MS.json';
 import zh_HX from './zh_HX.json';
 import zh_Meme from './zh_Meme.json';
-import es_MS from './es_MS.json';
+import es_ES from './es.json';
 
 const resources = { zh_CN, en_US, zh_HK, zh_Can, zh_HX, zh_Meme, zh_MS, es_MS} as const;
 export type Lang = keyof typeof resources;
@@ -21,7 +21,7 @@ const LANG_NAME: any = {
   "zh_HX": "文言 (華夏)",
   "zh_Meme": "中文 (神人)",
   "zh_MS": "中文 (巨硬)",
-  "es_MS":"西班牙 （巨硬）",
+  "es":"español（ES） ",
   "en_US": "English (US)",
 }
 
